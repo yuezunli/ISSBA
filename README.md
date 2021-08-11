@@ -36,7 +36,7 @@ Please cite our paper in your publications if it helps your research:
 ```
 @inproceedings{li_ISSBA_2021,
   title={Invisible Backdoor Attack with Sample-Specific Triggers},
-  author={Li, Yuezun, Li, Yiming, Wu, Baoyuan, Li, Longkang, He, Ran and Lyu, Siwei},
+  author={Li, Yuezun and Li, Yiming and Wu, Baoyuan and Li, Longkang and He, Ran and Lyu, Siwei},
   booktitle={International Conference on Computer Vision (ICCV)},
   year={2021}
 }
