@@ -1,6 +1,4 @@
 # Invisible Backdoor Attack with Sample-Specific Triggers
-Here is the preview code of inserting ISSBA triggers and performing backdoor attack on resnet18.
-The codes for the training and defense experiments will be released soon.
 
 ## Environment
 This project is developed with Python 3.6 on Ubuntu 18.04. Please run the following script to install the required packages
@@ -9,7 +7,7 @@ pip install -r requirements.txt
 ```
 
 ## Demo
-Before running the code, please download the checkpoints from [Baidudisk](https://pan.baidu.com/s/1m5yRFQ4Wt7Km_56CIxzgsg) (code:o89z) or [Onedrive](https://1drv.ms/u/s!Avxa3ueQCO4jgZ9ck7e1q_ANoqQi8Q?e=HXxEKo), and put them into `ckpt` folder.
+Before running the code, please download the checkpoints from [Baidudisk](https://pan.baidu.com/s/1m5yRFQ4Wt7Km_56CIxzgsg) (code:o89z), and put them into `ckpt` folder.
 
 1. Generating poisoned sample with sample-specific trigger. 
     ```python
@@ -30,6 +28,21 @@ Before running the code, please download the checkpoints from [Baidudisk](https:
     python test.py
     ```
 
+## Train
+1. Download data from [Baidudisk](https://pan.baidu.com/s/1p_t5EJ91hkiyeYBFEZyfsg 
+)(code:oxgb) and unzip it to folder `datasets/`.
+2. Run training script `bash train.sh`.
+3. The files in checkpoint folder are as following:
+
+    ```
+    --- args.json # Input arguments
+    |-- x_checkpoint.pth.tar # checkpoint
+    |-- x_model_best.pth.tar # best checkpoint
+    |-- x.txt # log file
+    ```
+
+## Defense
+Comming soon...
 ## Citation
 Please cite our paper in your publications if it helps your research:
 
@@ -37,7 +50,7 @@ Please cite our paper in your publications if it helps your research:
 @inproceedings{li_ISSBA_2021,
   title={Invisible Backdoor Attack with Sample-Specific Triggers},
   author={Li, Yuezun and Li, Yiming and Wu, Baoyuan and Li, Longkang and He, Ran and Lyu, Siwei},
-  booktitle={International Conference on Computer Vision (ICCV)},
+  booktitle={IEEE International Conference on Computer Vision (ICCV)},
   year={2021}
 }
 ```
