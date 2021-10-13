@@ -41,6 +41,8 @@ Before running the code, please download the checkpoints from [Baidudisk](https:
     |-- x.txt # log file
     ```
 
+**Note**: The training of the encoder-decoder network adopted in this paper follows the default settings and codes in [StegaStamp](https://github.com/tancik/StegaStamp). Please refer to their repo and paper for more details. 
+
 ## Defense
 Comming soon...
 ## Citation
@@ -57,3 +59,4 @@ Please cite our paper in your publications if it helps your research:
 
 ## Notice
 This repository is NOT for commecial use. It is provided "as it is" and we are not responsible for any subsequence of using this code.
+
