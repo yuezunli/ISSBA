@@ -42,7 +42,7 @@ Before running the code, please download the checkpoints from [Baidudisk](https:
     ```
 
 ## Defense
-Comming soon...
+Check [BackdoorBench](https://github.com/SCLBD/backdoorbench) for details
 ## Citation
 Please cite our paper in your publications if it helps your research:
 
